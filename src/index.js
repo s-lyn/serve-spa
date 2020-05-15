@@ -2,7 +2,7 @@ require('./utils/handleSignals')
 const http = require('http')
 const serveHandler = require('serve-handler')
 const cookie = require('cookie')
-const { FILES_MATCH, COOKIE_KEY } = require('./config/env')
+const { PORT, FILES_MATCH, COOKIE_KEY } = require('./config/env')
 const clientConfig = require('./utils/client-config')
 
 const handler = async (request, response) => {
@@ -29,7 +29,6 @@ const handler = async (request, response) => {
 
 http
   .createServer(handler)
-  .listen(8080, () => {
-    console.log(`Serve-spa is listening port 8080`)
+  .listen(PORT, () => {
+    console.log(`Serve-spa is listening port "${PORT}"`)
   })
-  

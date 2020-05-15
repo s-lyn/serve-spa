@@ -9,5 +9,6 @@ module.exports = {
   // Cookie key
   COOKIE_KEY: process.env.COOKIE_KEY || 'clientConfig',
   // Whish file must to send a cookie
-  FILES_MATCH: process.env.FILES_MATCH || '**/*.@(html|htm)'
+  FILES_MATCH: process.env.FILES_MATCH || '**/*.@(html|htm)',
+  PORT: parseInt(process.env.PORT, 10) || 8080
 }

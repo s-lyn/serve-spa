@@ -33,3 +33,4 @@ You can configure the container with environment variables:
 | INCLUDE_KEYS | `""` (empty string) | Comma-separated list of environment variables to send to cookie |
 | COOKIE_KEY | `clientConfig` | Cookie key to use on the server |
 | FILES_MATCH | `**/*.@(html\|htm)` | Match files where cookie config shoul be added (string with [minimatch](https://github.com/isaacs/minimatch) support) |
+| PORT | `8080` | Server port |
