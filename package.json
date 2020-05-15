@@ -1,0 +1,22 @@
+{
+  "name": "serve-spa",
+  "version": "1.0.0",
+  "description": "Serve the Single Page Application (SPA) with config from environment",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "serve",
+    "serve-handler",
+    "SPA",
+    "static",
+    "app",
+    "application"
+  ],
+  "author": "Serhii Lynnyk <serhii.lynnyk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "serve-handler": "^6.1.2"
+  }
+}
