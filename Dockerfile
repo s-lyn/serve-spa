@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-WORKDIR /app
+WORKDIR /usr/lib/serve-spa
 COPY ./default-public /usr/share/public
 
 COPY package*.json ./
