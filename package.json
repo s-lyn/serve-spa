@@ -16,7 +16,7 @@
   "author": "Serhii Lynnyk <serhii.lynnyk@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "cookie": "^0.4.1",
+    "cookie": "^0.7.0",
     "serve-handler": "^6.1.2"
   }
 }
